@@ -1,0 +1,158 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Web Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Share Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-3.png"
+    },
+    {
+      "id": 4,
+      "title": "VPS Server",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-4.png"
+    },
+    {
+      "id": 5,
+      "title": "WHCMS",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-5.png"
+    },
+    {
+      "id": 6,
+      "title": "24/7 Support",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-6.png"
+    },
+    {
+      "id": 7,
+      "title": "Windows Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-7.png"
+    },
+    {
+      "id": 8,
+      "title": "Database Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-8.png"
+    },
+    {
+      "id": 9,
+      "title": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-1.png"
+    },
+    {
+      "id": 10,
+      "title": "Web Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-2.png"
+    },
+    {
+      "id": 11,
+      "title": "Share Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-3.png"
+    },
+    {
+      "id": 12,
+      "title": "VPS Server",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-4.png"
+    },
+    {
+      "id": 13,
+      "title": "WHCMS",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-5.png"
+    },
+    {
+      "id": 14,
+      "title": "24/7 Support",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-6.png"
+    },
+    {
+      "id": 15,
+      "title": "Windows Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-7.png"
+    },
+    {
+      "id": 16,
+      "title": "Database Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-8.png"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "title": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-1.png"
+    }
+  ],
+  "basket": [
+    {
+      "id": 2,
+      "title": "Web Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-2.png"
+    },
+    {
+      "id": 6,
+      "title": "24/7 Support",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-6.png"
+    },
+    {
+      "id": 3,
+      "title": "Share Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-3.png"
+    },
+    {
+      "id": 7,
+      "title": "Windows Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-7.png"
+    },
+    {
+      "id": 8,
+      "title": "Database Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-8.png"
+    },
+    {
+      "id": 9,
+      "title": "Cloud Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-1.png"
+    },
+    {
+      "id": 11,
+      "title": "Share Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-3.png"
+    },
+    {
+      "id": 15,
+      "title": "Windows Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+      "image": "https://preview.colorlib.com/theme/drimo/drimo/img/icon/ss-icon-7.png"
+    }
+  ]
+}

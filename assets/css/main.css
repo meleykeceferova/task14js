@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF;
+}
+
+#map {
+  background-color: rgb(237, 243, 243);
+  background-image: url("/assets/images/server-banner.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+  width: 100%;
+}
+
+header ul li {
+  margin: 10px 10px;
+}
+header ul li .active {
+  color: #7DB9E8 !important;
+}
+header ul li a {
+  color: black !important;
+}
+header ul li a:hover {
+  color: #7DB9E8 !important;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  width: 100%;
+}
+
+.content .class1 {
+  padding: 20px;
+  width: 400px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.content .class1::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 22px 14px 0 14px;
+  border-color: #fc6428 transparent transparent transparent;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+}
+
+.content .class1 p {
+  font-size: 30px;
+}
+
+.content .class2 {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .class2 .map1 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.content .class2 .map1 .icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 400px;
+}
+.content .class2 .map1 .icon .now1 {
+  width: 200px;
+  height: 50px;
+  border-color: #fc6428;
+  background-color: #fc6428;
+  margin-top: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.content .class2 .map1 .icon i {
+  margin-right: 10px;
+}
+
+.content .class2 .map1 h1 {
+  font-size: 45px;
+  color: white;
+}
+
+.content .class2 .map1 p {
+  font-size: 15px;
+  color: white;
+}
+
+.content .class2 .map1 .boxen {
+  font-size: 30px;
+  color: white;
+}
+
+.content .class2 .map2 {
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+
+#dataRender {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+#dataRender #bskcontainer,
+#dataRender #favcontainer,
+#dataRender #container {
+  border: 1px solid rgb(244, 241, 241);
+  width: 80%;
+  height: auto;
+  overflow-y: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#dataRender #bskcontainer .myCard,
+#dataRender #favcontainer .myCard,
+#dataRender #container .myCard {
+  background-color: #EAEFF3;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 290px;
+  min-height: 250px;
+  padding: 20px;
+  position: relative;
+}
+#dataRender #bskcontainer .myCard i,
+#dataRender #favcontainer .myCard i,
+#dataRender #container .myCard i {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 18px;
+  background-color: azure;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#dataRender #bskcontainer .myCard h4,
+#dataRender #favcontainer .myCard h4,
+#dataRender #container .myCard h4 {
+  margin: 10px;
+}
+#dataRender #bskcontainer .myCard p,
+#dataRender #favcontainer .myCard p,
+#dataRender #container .myCard p {
+  width: 100%;
+  font-size: 14px;
+}
+#dataRender #bskcontainer .myCard button,
+#dataRender #favcontainer .myCard button,
+#dataRender #container .myCard button {
+  margin-top: 10px;
+  color: #020068;
+  background-color: #00FFFF;
+  border: none;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+#dataRender button {
+  margin: 20px 0px;
+  background-color: orange;
+  border: none;
+  padding: 5px 10px;
+}
+
+#happy {
+  width: 100%;
+  min-height: 60vh;
+  background-color: #7db9e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+#happy .happyBox {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+#happy .happyBox h2 {
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 20px;
+}
+#happy .happyBox .line {
+  width: 50px;
+  height: 1px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#happy .happyBox p {
+  width: 40%;
+}
+#happy .happyBox .cardBox {
+  display: flex;
+  width: 80%;
+}
+#happy .happyBox .cardBox .happyCard {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  gap: 20px;
+  margin: 15px 10px;
+}
+#happy .happyBox .cardBox .happyCard .circle {
+  background-color: #BEDCF4;
+  border-radius: 50%;
+  padding: 5px;
+}
+#happy .happyBox .cardBox .happyCard .circle i {
+  font-size: 40px;
+  color: #7DB9E8;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#latest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: 25px;
+}
+#latest .latestBox {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+}
+#latest .latestBox h2 {
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 20px;
+}
+#latest .latestBox .line {
+  width: 50px;
+  height: 1px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#latest .latestBox p {
+  width: 40%;
+}
+#latest .latestBox .lastesCard {
+  margin-top: 5px;
+  border: 1px solid rgb(225, 225, 225);
+}
+#latest .latestBox .lastesCard img {
+  width: 100%;
+}
+#latest .latestBox .lastesCard .lastestText {
+  text-align: start;
+  font-size: 18px;
+  color: #424242;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  padding-bottom: 15px;
+  padding: 20px;
+  min-height: 150px;
+}
+#latest .latestBox .lastesCard .lastestText span {
+  font-size: 14px;
+  line-height: 26px;
+  color: #6b6d6f;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+footer span {
+  color: #6b6d6f;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.32px;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 789px) {
+  #id .container .nav .top2 ul {
+    display: none;
+  }
+  #map .content .class2 {
+    flex-direction: column;
+  }
+  #map .content .class2 .map2 {
+    margin-top: 50px;
+  }
+  #id .container .nav .top2 i {
+    display: block;
+  }
+}
+@media screen and (max-width: 992px) {
+  .happyBox p {
+    width: 90% !important;
+  }
+  .latestBox p {
+    width: 90% !important;
+  }
+}
